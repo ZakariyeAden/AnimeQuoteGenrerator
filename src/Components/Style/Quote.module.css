@@ -1,8 +1,14 @@
-.quote h1 {
+.form h1 {
   font-size: 4rem; 
 }
-.quote div{
-  padding: 4rem 2rem;
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem;
+}
+.form form {
+  padding: 4rem 8rem;
   background-color: #fff;
-  border-radius: 5rem;
+  border-radius: 3rem;
 }
