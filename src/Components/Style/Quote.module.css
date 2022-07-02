@@ -1,0 +1,8 @@
+.quote h1 {
+  font-size: 4rem; 
+}
+.quote div{
+  padding: 4rem 2rem;
+  background-color: #fff;
+  border-radius: 5rem;
+}
