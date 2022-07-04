@@ -12,3 +12,11 @@
   background-color: #fff;
   border-radius: 3rem;
 }
+@media only screen and (max-width: 28em) {
+  .form p{
+    font-size: 0.5rem;
+  }
+  .form h6{
+    font-size: 1rem;
+  }
+}
