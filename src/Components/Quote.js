@@ -26,9 +26,9 @@ function Quote() {
 
   const form = (
     <form>
-      <h2>{quotes.anime}</h2>
-      <p>{quotes.quote}</p>
-      <h6>{quotes.character}</h6>
+      <h2>Anime: {quotes.anime}</h2>
+      <p>Quote: {quotes.quote}</p>
+      <h6>Character: {quotes.character}</h6>
       <button onClick={getQuote}>Get Quote</button>
     </form>
   );
@@ -37,9 +37,9 @@ function Quote() {
   const textScreen = <p>Loading...</p>;
   return (
     <Card>
-       <div className={classes.form}>
+       { textScreen && <div className={classes.form}>
           <div>{form}</div>
-      </div>
+      </div>}
     </Card>
   );
 }
