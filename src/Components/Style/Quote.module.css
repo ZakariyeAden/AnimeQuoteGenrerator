@@ -19,4 +19,7 @@
   .form h6{
     font-size: 1rem;
   }
+  .form button{
+    color: #000;
+  }
 }
